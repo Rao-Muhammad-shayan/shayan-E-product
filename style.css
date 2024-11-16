@@ -61,7 +61,10 @@ p{
     margin: 30px 0px;
 border-radius: 30px;
 transition: background 0.3s ;
+
 }
+
+
 .btn:hover{
     background-color: #563434;
 }
@@ -95,6 +98,7 @@ margin-top: 70px;
     padding: 10px;
     min-width: 200px;
     margin-bottom: 50px;
+    transform: 0.5s;
 }
 .col-4>img{
     width: 100%;
@@ -129,4 +133,71 @@ h4{
 }
 .col-4>p{
     font-size: 14px;
+}
+.col-4:hover{
+    transform: translateY(-5px);
+
+}
+.offer{
+    background: radial-gradient(#fff,#ffd6d6);
+    margin-top: 80px;
+    padding: 30px 0;
+}
+.col-2.offer-img{
+    padding: 50px;
+}
+small{
+    color: #555;
+}
+.btnL:hover{
+transform: translateY(-5px);
+
+}
+.testimonial{
+    padding-top: 100px;
+}
+.testimonial .col-3 {
+    padding: 40px 20px;
+    text-align: center;
+    box-shadow: 0 0 20px  0px rgb(0,0,0,1);
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+.testimonial .col-3>img{
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+.testimonial .col-3:hover{
+    transform: translateY(-10px);
+}
+.fa-quote-left{
+    font-size: 34px;
+color: #ff523b;
+}
+.col-3>p{
+margin: 20px 0;
+font-size: 12px;
+}
+
+#k{
+font-weight: 600px;
+color: #555;
+
+font-size: 16px;
+}
+.brand{
+    margin: 100px auto;
+
+}
+.col-5{
+    width: 160px;
+}
+.col-5>img{
+    width: 100%;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+.col-5>img:hover{
+    filter: grayscale(0);
 }
